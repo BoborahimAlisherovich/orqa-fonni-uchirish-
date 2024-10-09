@@ -37,7 +37,7 @@ async def handle_photo(message: types.Message, state: FSMContext):
 
     user_id = message.from_user.id
     input_path = f"input_{user_id}.jpg"
-    output_path = f"output_{user_id}.png"  
+    output_path = f"output_{user_id}.png"  # Save as PNG to handle transparency
 
     # Check and delete previous files if they exist
     if os.path.exists(output_path):
