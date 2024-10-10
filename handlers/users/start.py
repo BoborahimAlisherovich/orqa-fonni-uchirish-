@@ -30,8 +30,8 @@ async def handle_photo(message: types.Message, state: FSMContext):
     await state.clear()
 
     user_id = message.from_user.id
-    input_path = f"input_{user_id}.jpg"
-    output_path = f"output_{user_id}.png"  
+    input_path = f"nobg_{user_id}.jpg"
+    output_path = f"nobg_{user_id}.png"  
 
     if os.path.exists(output_path):
         os.remove(output_path)
