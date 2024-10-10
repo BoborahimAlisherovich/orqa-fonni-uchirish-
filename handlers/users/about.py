@@ -20,7 +20,7 @@ Mening maqsadim - sizning suratlaringizdan orqa fonni olib tashlash va ularni ya
 - Rembg (orqa fonni o'chirish uchun)
 Sizning fikrlaringiz va takliflaringiz men uchun muhim! Agar biron-bir taklif yoki xato topgan bo'lsangiz, iltimos, menga xabar bering. 
 Rahmat va rasm uzatishda omad tilayman! ✨
-""")
+""",parse_mode="markdown")
     await state.clear()
     
 

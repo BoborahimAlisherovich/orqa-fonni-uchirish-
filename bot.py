@@ -4,7 +4,7 @@ from aiogram import F
 import asyncio
 import logging
 import sys
-import handlers
+
 from menucommands.set_bot_commands  import set_default_commands
 
 #bot ishga tushganini xabarini yuborish

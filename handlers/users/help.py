@@ -15,5 +15,5 @@ Assalomu alaykum! Mening yordamimga xush kelibsiz! Bu bot orqali rasm yuborib, o
 3️⃣ **Rang tanlash**: Qayta ishlangan rasmni olganingizdan so'ng, orqa fon rangini tanlashingiz mumkin. Rangni tanlash uchun tugmalar orqali tanlov qiling.
 4️⃣ **Asliga qaytarish**: Agar siz orqa fonni o'zgartirmoqchi bo'lsangiz, "Asliga qaytarish" tugmasini bosib, dastlabki rasmni qaytarib olishingiz mumkin.
 ❓ **Savollaringiz bormi?** Menga har qanday savol bilan murojaat qilishingiz mumkin!   
-""")
+""", parse_mode="markdown")
     await state.clear()
